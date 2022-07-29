@@ -1,0 +1,46 @@
+/* CONVENTIONALS ------------------------------------------*/
+html {
+    box-sizing: border-box;
+  }
+  
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-sizing: inherit;
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+/* HEADER -------------------------------------------------*/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.header nav ul li {
+    list-style-type: none;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
