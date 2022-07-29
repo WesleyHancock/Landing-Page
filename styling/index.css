@@ -61,7 +61,7 @@ html {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 40px;
     gap: 30px;
     color: #F9FAF8;
 }
@@ -96,7 +96,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
 
 }
 
@@ -129,4 +129,29 @@ html {
 .image.three {
     height: 100px;
     width: auto;
+}
+
+/* BODY02 -------------------------------------------------*/
+.body02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    text-align: center;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.body02 .alignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.body02 h3 {
+    margin: 0px 0px 20px 0px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
 }
