@@ -84,6 +84,10 @@ html {
     border: none;
 }
 
+.banner-box .banner .right {
+    background-color: none;
+}
+
 .image01 {
     width: 400px;
     height: auto;
@@ -154,4 +158,37 @@ html {
     font-size: 36px;
     font-style: italic;
     font-weight: 200;
+}
+
+/* CALL TO ACTION -----------------------------------------*/
+.body03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+    padding: 40px;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.left h5 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.body03 .right {
+    border-radius: 5px;
+    min-width: 100px;
+    padding: 5px;
+    border: 1px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
