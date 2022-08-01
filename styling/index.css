@@ -13,6 +13,10 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
+  .flex-container {
+    width: 100Vw;
+  }
+
 /* HEADER -------------------------------------------------*/
 .header {
     display: flex;
@@ -64,6 +68,7 @@ html {
     height: 100vh;
     z-index: -2;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .banner {
@@ -109,17 +114,17 @@ html {
 }
 
 /* BODY01 -------------------------------------------------*/
-.body01 {
+#body01 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 60px;
     z-index: 1;
     background-color: #F9FAF8;
 }
 
-.body01 h1 {
+#body01 h1 {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
@@ -151,24 +156,23 @@ html {
 }
 
 /* BODY02 -------------------------------------------------*/
-.body02 {
+#body02 {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
     text-align: center;
-    min-height: 300px;
-    padding: 20px;
+    padding: 60px;
 }
 
-.body02 .alignment {
+#body02 .alignment {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
 }
 
-.body02 h3 {
+#body02 h3 {
     margin: 0px 0px 20px 0px;
     font-size: 36px;
     font-style: italic;
@@ -176,22 +180,23 @@ html {
 }
 
 /* CALL TO ACTION -----------------------------------------*/
-.body03 {
+#body03 {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F9FAF8;
-    padding: 40px;
+    padding: 60px;
 }
 
 .action-box {
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 700px;
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 30px 40px;
     border-radius: 10px;
+    gap: 20px;
 }
 
 .left h5 {
@@ -199,7 +204,7 @@ html {
     font-weight: 900;
 }
 
-.body03 .right {
+#body03 .right {
     border-radius: 5px;
     min-width: 100px;
     padding: 5px;
